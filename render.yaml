@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nazrbot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
+    plan: free
